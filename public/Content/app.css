@@ -1,0 +1,58 @@
+/* Student Name: Mingyue Guo; Student Number: 301245440; Date: 2020/09/27*/
+/* custom css goes here */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(198, 212, 226);
+}
+form{
+    margin: 0 auto;
+    width: 980px;
+}
+.myInfo{
+    margin-top: 50px;
+    width: 680px;
+    border: solid 3px rgb(125, 145, 133);
+    border-radius: 2px;
+    padding: 1em 1em 1em 1em;
+}
+.aboutMe{
+    margin: 0 auto;
+    width: 960px;
+    font-size: larger;
+}
+
+.home{
+    margin: 0 auto;
+    width: 1080px;
+}
+.card{
+    background-color: rgb(130, 145, 144);
+    font-size: x-large;
+    width: 1080px;
+}
+
+.projects-title{
+    margin-top: 100px;
+    width: 1480px;
+    text-align: center; 
+}
+.projects {
+    margin: 0 auto;
+    width: 1780px;
+    padding: 1em 4em 8em 4em;
+}
+
+.projects-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 3em;
+        justify-items: center;
+        padding: 1em 4em 8em 4em;
+        display: flex;
+}
+.project{
+    width:490px;
+    border: solid 1px rgb(125, 145, 133);
+    padding: 2em 2em 2em 2em;
+}
+ 
