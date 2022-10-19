@@ -15,8 +15,6 @@ module.exports.displayBusinessList = (req, res, next) => {
         title: "Business Contact List",
         BusinessList: businessList,
         displayName: req.user ? req.user.displayName : "",
-        //displayPnoneNumber: req.user ? req.user.displayPhoneNumber : "",
-        //displayEmail: req.user ? req.user.displayEmail : "",
       });
       //render business.ejs and pass title and Businesslist variable we are passing Businesslist object to Businesslist property
     }
